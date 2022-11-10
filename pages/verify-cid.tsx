@@ -265,7 +265,7 @@ function VerifyCIDPage(props: any) {
 
       <div className={S.h}>
         <div className={S.ht}>
-          <H2 style={{ maxWidth: '768px', fontWeight: 600 }}>https://estuary.tech stats</H2>
+          <H2 style={{ maxWidth: '768px', fontWeight: 600 }}> {location.protocol}//{location.host} stats</H2>
           <P style={{ marginTop: 12, maxWidth: '768px', fontSize: '1.15rem', opacity: '0.7' }}>
             This is the performance of our Estuary Node and how much data it has pinned and stored on the Filecoin Network.
           </P>
