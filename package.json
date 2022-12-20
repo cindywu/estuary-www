@@ -11,7 +11,8 @@
     "build": "next build",
     "check-types": "tsc --noemit",
     "start": "NODE_ENV=production next start",
-    "test": "jest"
+    "test": "jest",
+    "tauri": "tauri"
   },
   "pre-commit": [
     "check-types"
@@ -39,6 +40,7 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "@tauri-apps/cli": "^1.2.2",
     "@types/react": "^17.0.37",
     "pre-commit": "^1.2.2",
     "typescript": "^4.5.2"
